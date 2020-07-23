@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE71885024C3294E008666F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71884F24C3294E008666F7 /* AppDelegate.m */; };
+		EE71885624C3294E008666F7 /* UIStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71885524C3294E008666F7 /* UIStepViewController.m */; };
+		EE71885924C3294E008666F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE71885724C3294E008666F7 /* Main.storyboard */; };
+		EE71885B24C3294F008666F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE71885A24C3294F008666F7 /* Assets.xcassets */; };
+		EE71885E24C3294F008666F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE71885C24C3294F008666F7 /* LaunchScreen.storyboard */; };
+		EE71886124C3294F008666F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71886024C3294F008666F7 /* main.m */; };
+		EE71886924C32EA9008666F7 /* UITemplateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71886824C32EA9008666F7 /* UITemplateTableViewController.m */; };
+		EE71886C24C3DA56008666F7 /* UIStepButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71886B24C3DA56008666F7 /* UIStepButton.m */; };
+		EE71886F24C3FB16008666F7 /* UIImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71886E24C3FB16008666F7 /* UIImagesViewController.m */; };
+		EE71887224C3FB2B008666F7 /* UIPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71887124C3FB2B008666F7 /* UIPreViewController.m */; };
+		EE71887524C3FB3A008666F7 /* UIShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71887424C3FB3A008666F7 /* UIShareViewController.m */; };
+		EE71887B24C3FE07008666F7 /* UIImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71887A24C3FE07008666F7 /* UIImageCollectionViewCell.m */; };
+		EE71887D24C52C0D008666F7 /* UIImagesViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE71887C24C52C0D008666F7 /* UIImagesViewController.bundle */; };
+		EE71888124C53F0D008666F7 /* VideoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE71887F24C53F0D008666F7 /* VideoModel.xcdatamodeld */; };
+		EE71888524C54144008666F7 /* NSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71888424C54144008666F7 /* NSProject.m */; };
+		EE71888824C54157008666F7 /* NSStep.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71888724C54157008666F7 /* NSStep.m */; };
+		EE71888B24C54619008666F7 /* NSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71888A24C54619008666F7 /* NSDataManager.m */; };
+		EE71888E24C55308008666F7 /* UIProjectDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71888D24C55308008666F7 /* UIProjectDetailTableViewController.m */; };
+		EE71889424C856AE008666F7 /* UIDataScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71889324C856AE008666F7 /* UIDataScrollView.m */; };
+		EE71889724C85E03008666F7 /* UIStepNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71889624C85E03008666F7 /* UIStepNavgationController.m */; };
+		EE7188BE24C90125008666F7 /* UIStepTemplate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE7188BD24C90125008666F7 /* UIStepTemplate.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE71884B24C3294E008666F7 /* StepTemplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepTemplet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE71884E24C3294E008666F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE71884F24C3294E008666F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE71885424C3294E008666F7 /* UIStepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIStepViewController.h; sourceTree = "<group>"; };
+		EE71885524C3294E008666F7 /* UIStepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIStepViewController.m; sourceTree = "<group>"; };
+		EE71885824C3294E008666F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE71885A24C3294F008666F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE71885D24C3294F008666F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE71885F24C3294F008666F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE71886024C3294F008666F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE71886724C32EA9008666F7 /* UITemplateTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITemplateTableViewController.h; sourceTree = "<group>"; };
+		EE71886824C32EA9008666F7 /* UITemplateTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITemplateTableViewController.m; sourceTree = "<group>"; };
+		EE71886A24C3DA56008666F7 /* UIStepButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIStepButton.h; sourceTree = "<group>"; };
+		EE71886B24C3DA56008666F7 /* UIStepButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIStepButton.m; sourceTree = "<group>"; };
+		EE71886D24C3FB16008666F7 /* UIImagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImagesViewController.h; sourceTree = "<group>"; };
+		EE71886E24C3FB16008666F7 /* UIImagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagesViewController.m; sourceTree = "<group>"; };
+		EE71887024C3FB2B008666F7 /* UIPreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIPreViewController.h; sourceTree = "<group>"; };
+		EE71887124C3FB2B008666F7 /* UIPreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPreViewController.m; sourceTree = "<group>"; };
+		EE71887324C3FB3A008666F7 /* UIShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIShareViewController.h; sourceTree = "<group>"; };
+		EE71887424C3FB3A008666F7 /* UIShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIShareViewController.m; sourceTree = "<group>"; };
+		EE71887924C3FE07008666F7 /* UIImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageCollectionViewCell.h; sourceTree = "<group>"; };
+		EE71887A24C3FE07008666F7 /* UIImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageCollectionViewCell.m; sourceTree = "<group>"; };
+		EE71887C24C52C0D008666F7 /* UIImagesViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UIImagesViewController.bundle; sourceTree = "<group>"; };
+		EE71888024C53F0D008666F7 /* VideoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoModel.xcdatamodel; sourceTree = "<group>"; };
+		EE71888324C54144008666F7 /* NSProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSProject.h; sourceTree = "<group>"; };
+		EE71888424C54144008666F7 /* NSProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSProject.m; sourceTree = "<group>"; };
+		EE71888624C54157008666F7 /* NSStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStep.h; sourceTree = "<group>"; };
+		EE71888724C54157008666F7 /* NSStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStep.m; sourceTree = "<group>"; };
+		EE71888924C54619008666F7 /* NSDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDataManager.h; sourceTree = "<group>"; };
+		EE71888A24C54619008666F7 /* NSDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDataManager.m; sourceTree = "<group>"; };
+		EE71888C24C55308008666F7 /* UIProjectDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIProjectDetailTableViewController.h; sourceTree = "<group>"; };
+		EE71888D24C55308008666F7 /* UIProjectDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIProjectDetailTableViewController.m; sourceTree = "<group>"; };
+		EE71889224C856AE008666F7 /* UIDataScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDataScrollView.h; sourceTree = "<group>"; };
+		EE71889324C856AE008666F7 /* UIDataScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDataScrollView.m; sourceTree = "<group>"; };
+		EE71889524C85E03008666F7 /* UIStepNavgationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIStepNavgationController.h; sourceTree = "<group>"; };
+		EE71889624C85E03008666F7 /* UIStepNavgationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIStepNavgationController.m; sourceTree = "<group>"; };
+		EE7188BD24C90125008666F7 /* UIStepTemplate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UIStepTemplate.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE71884824C3294E008666F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE71884224C3294E008666F7 = {
+			isa = PBXGroup;
+			children = (
+				EE71884D24C3294E008666F7 /* StepTemplet */,
+				EE71884C24C3294E008666F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE71884C24C3294E008666F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE71884B24C3294E008666F7 /* StepTemplet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE71884D24C3294E008666F7 /* StepTemplet */ = {
+			isa = PBXGroup;
+			children = (
+				EE71884E24C3294E008666F7 /* AppDelegate.h */,
+				EE71884F24C3294E008666F7 /* AppDelegate.m */,
+				EE7188BD24C90125008666F7 /* UIStepTemplate.bundle */,
+				EE71889524C85E03008666F7 /* UIStepNavgationController.h */,
+				EE71889624C85E03008666F7 /* UIStepNavgationController.m */,
+				EE71885424C3294E008666F7 /* UIStepViewController.h */,
+				EE71885524C3294E008666F7 /* UIStepViewController.m */,
+				EE71889224C856AE008666F7 /* UIDataScrollView.h */,
+				EE71889324C856AE008666F7 /* UIDataScrollView.m */,
+				EE71886A24C3DA56008666F7 /* UIStepButton.h */,
+				EE71886B24C3DA56008666F7 /* UIStepButton.m */,
+				EE71888224C54114008666F7 /* Model */,
+				EE71887E24C53C47008666F7 /* Template */,
+				EE71887824C3FBF3008666F7 /* Share */,
+				EE71887724C3FBE4008666F7 /* PreView */,
+				EE71887624C3FBDA008666F7 /* Images */,
+				EE71885724C3294E008666F7 /* Main.storyboard */,
+				EE71885A24C3294F008666F7 /* Assets.xcassets */,
+				EE71885C24C3294F008666F7 /* LaunchScreen.storyboard */,
+				EE71885F24C3294F008666F7 /* Info.plist */,
+				EE71886024C3294F008666F7 /* main.m */,
+			);
+			path = StepTemplet;
+			sourceTree = "<group>";
+		};
+		EE71887624C3FBDA008666F7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE71886D24C3FB16008666F7 /* UIImagesViewController.h */,
+				EE71886E24C3FB16008666F7 /* UIImagesViewController.m */,
+				EE71887C24C52C0D008666F7 /* UIImagesViewController.bundle */,
+				EE71887924C3FE07008666F7 /* UIImageCollectionViewCell.h */,
+				EE71887A24C3FE07008666F7 /* UIImageCollectionViewCell.m */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EE71887724C3FBE4008666F7 /* PreView */ = {
+			isa = PBXGroup;
+			children = (
+				EE71887024C3FB2B008666F7 /* UIPreViewController.h */,
+				EE71887124C3FB2B008666F7 /* UIPreViewController.m */,
+			);
+			path = PreView;
+			sourceTree = "<group>";
+		};
+		EE71887824C3FBF3008666F7 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				EE71887324C3FB3A008666F7 /* UIShareViewController.h */,
+				EE71887424C3FB3A008666F7 /* UIShareViewController.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		EE71887E24C53C47008666F7 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				EE71886724C32EA9008666F7 /* UITemplateTableViewController.h */,
+				EE71886824C32EA9008666F7 /* UITemplateTableViewController.m */,
+				EE71888C24C55308008666F7 /* UIProjectDetailTableViewController.h */,
+				EE71888D24C55308008666F7 /* UIProjectDetailTableViewController.m */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		EE71888224C54114008666F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE71887F24C53F0D008666F7 /* VideoModel.xcdatamodeld */,
+				EE71888924C54619008666F7 /* NSDataManager.h */,
+				EE71888A24C54619008666F7 /* NSDataManager.m */,
+				EE71888324C54144008666F7 /* NSProject.h */,
+				EE71888424C54144008666F7 /* NSProject.m */,
+				EE71888624C54157008666F7 /* NSStep.h */,
+				EE71888724C54157008666F7 /* NSStep.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE71884A24C3294E008666F7 /* StepTemplet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE71886424C3294F008666F7 /* Build configuration list for PBXNativeTarget "StepTemplet" */;
+			buildPhases = (
+				EE71884724C3294E008666F7 /* Sources */,
+				EE71884824C3294E008666F7 /* Frameworks */,
+				EE71884924C3294E008666F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepTemplet;
+			productName = StepTemplet;
+			productReference = EE71884B24C3294E008666F7 /* StepTemplet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE71884324C3294E008666F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "MingJie Han";
+				TargetAttributes = {
+					EE71884A24C3294E008666F7 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = EE71884624C3294E008666F7 /* Build configuration list for PBXProject "StepTemplet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE71884224C3294E008666F7;
+			productRefGroup = EE71884C24C3294E008666F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE71884A24C3294E008666F7 /* StepTemplet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE71884924C3294E008666F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE71887D24C52C0D008666F7 /* UIImagesViewController.bundle in Resources */,
+				EE71885E24C3294F008666F7 /* LaunchScreen.storyboard in Resources */,
+				EE71885B24C3294F008666F7 /* Assets.xcassets in Resources */,
+				EE71885924C3294E008666F7 /* Main.storyboard in Resources */,
+				EE7188BE24C90125008666F7 /* UIStepTemplate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE71884724C3294E008666F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE71888824C54157008666F7 /* NSStep.m in Sources */,
+				EE71885624C3294E008666F7 /* UIStepViewController.m in Sources */,
+				EE71888E24C55308008666F7 /* UIProjectDetailTableViewController.m in Sources */,
+				EE71887224C3FB2B008666F7 /* UIPreViewController.m in Sources */,
+				EE71887524C3FB3A008666F7 /* UIShareViewController.m in Sources */,
+				EE71888124C53F0D008666F7 /* VideoModel.xcdatamodeld in Sources */,
+				EE71885024C3294E008666F7 /* AppDelegate.m in Sources */,
+				EE71888524C54144008666F7 /* NSProject.m in Sources */,
+				EE71886F24C3FB16008666F7 /* UIImagesViewController.m in Sources */,
+				EE71888B24C54619008666F7 /* NSDataManager.m in Sources */,
+				EE71886124C3294F008666F7 /* main.m in Sources */,
+				EE71889724C85E03008666F7 /* UIStepNavgationController.m in Sources */,
+				EE71886924C32EA9008666F7 /* UITemplateTableViewController.m in Sources */,
+				EE71886C24C3DA56008666F7 /* UIStepButton.m in Sources */,
+				EE71889424C856AE008666F7 /* UIDataScrollView.m in Sources */,
+				EE71887B24C3FE07008666F7 /* UIImageCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE71885724C3294E008666F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE71885824C3294E008666F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE71885C24C3294F008666F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE71885D24C3294F008666F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE71886224C3294F008666F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE71886324C3294F008666F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE71886524C3294F008666F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KM9DQ5C6Z;
+				INFOPLIST_FILE = StepTemplet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanmingjie.StepTemplet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE71886624C3294F008666F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KM9DQ5C6Z;
+				INFOPLIST_FILE = StepTemplet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanmingjie.StepTemplet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE71884624C3294E008666F7 /* Build configuration list for PBXProject "StepTemplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE71886224C3294F008666F7 /* Debug */,
+				EE71886324C3294F008666F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE71886424C3294F008666F7 /* Build configuration list for PBXNativeTarget "StepTemplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE71886524C3294F008666F7 /* Debug */,
+				EE71886624C3294F008666F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE71887F24C53F0D008666F7 /* VideoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE71888024C53F0D008666F7 /* VideoModel.xcdatamodel */,
+			);
+			currentVersion = EE71888024C53F0D008666F7 /* VideoModel.xcdatamodel */;
+			path = VideoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE71884324C3294E008666F7 /* Project object */;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="NSProject" representedClassName="NSProject" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="preview" optional="YES" attributeType="Binary"/>
+        <relationship name="steps" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NSStep" inverseName="project" inverseEntity="NSStep"/>
+    </entity>
+    <entity name="NSStep" representedClassName="NSStep" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NSProject" inverseName="steps" inverseEntity="NSProject"/>
+    </entity>
+    <elements>
+        <element name="NSProject" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="NSStep" positionX="-54" positionY="-9" width="128" height="73"/>
+    </elements>
+</model>
